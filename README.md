@@ -3,6 +3,11 @@
   <img alt="Cells resolving from noise into labeled cell types" src="assets/umap-light.svg" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/edge-stream-dark.svg">
+  <img alt="Streaming dynamical trajectories running through quantized edge inference" src="assets/edge-stream-light.svg" width="100%">
+</picture>
+
 ### Harry Nguyen
 
 Mathematical ML · Low-Energy Edge AI · Dynamical Systems  
@@ -14,8 +19,14 @@ Compression usually gets reported as one number: in-distribution accuracy. I car
 
 **Systems & Software**
 
-- [**MicroTwin**](https://github.com/nguyenha-ops) · Python, C/C++, CMSIS-NN  
-  On-device clinical digital twin using quantization-aware training (10K–100K INT8 parameters), online conformal quantile tracking, and doubly robust counterfactual distillation for Arm Cortex-M55 + Ethos-U85.
+- [**MicroTwin & BEDSIDE**](https://github.com/nguyenha-ops) · Python, C/C++, CMSIS-NN  
+  On-device clinical digital twin and leakage-safe real-time replay engine across eICU-CRD and MIMIC-IV (`availability-time masking`), combining quantization-aware training (10K–100K INT8 parameters), online conformal quantile tracking (2 floats/horizon), and cross-fitted AIPCW doubly robust distillation for Arm Cortex-M55 + Ethos-U85.
+- [**Pharm-JEPA**](https://github.com/nguyenha-ops) · PyTorch, INT8 Quantization  
+  Compact (<400 KB INT8) Joint-Embedding Predictive Architecture combining mechanism-of-action conditioning with anchored pharmacological constraints to predict counterfactual physiological state shifts in latent space without autoregressive token rollouts.
+- [**NaTRA**](https://github.com/nguyenha-ops) · Python, PyTorch, Julia  
+  Dynamical trajectory forecasting and fluid/electrolyte balance modeling for ICU sodium kinetics and hyponatremia risk stratification under irregular clinical sampling.
+- [**PRISM**](https://github.com/nguyenha-ops) · Python, LightGBM, ONNX  
+  72-model cascaded forecasting framework across 6 organ systems and 12 horizons ($n = 334,000$ ICU stays), exported to offline ONNX for zero-cloud bedside execution.
 - [**Edge LLM Compression (Gemma 3 270M)**](https://github.com/nguyenha-ops) · PyTorch, Arm Vela, ExecuTorch  
   Compressed the 262K-token vocabulary output head to 16K for offline NPU deployment on Arm Cortex-M55 + Ethos-U85.
 - [**TinyCell**](https://github.com/nguyenha-ops) · Python, NumPy  
@@ -25,9 +36,9 @@ Compression usually gets reported as one number: in-distribution accuracy. I car
 
 **Research**
 
-- **Broad Institute of MIT and Harvard (Schmidt Center):** Causal target trial emulation and `PRISM`, a 72-model cascaded LightGBM framework for multi-horizon ICU organ-dysfunction forecasting ($n = 334,000$ trajectories), exported to offline ONNX.
-- **CWRU Department of ECSE (Datta Lab):** Sub-milliwatt neural architectures, post-training quantization, and edge NPU/MCU compilation.
-- **NIH / NHLBI (Incoming Summer 2027):** Predictive modeling and dynamical systems for ICU electrolyte homeostasis and hyponatremia.
+- **Broad Institute of MIT and Harvard (Schmidt Center):** Causal target trial emulation and `PRISM` multi-horizon ICU forecasting ($n = 334,000$ trajectories).
+- **CWRU Department of ECSE (Datta Lab):** Sub-milliwatt neural architectures, quantization-aware training, and edge NPU/MCU compilation.
+- **NIH / NHLBI (Incoming Summer 2027):** Dynamical systems and predictive modeling for ICU electrolyte homeostasis and hyponatremia.
 
 **Selected Presentations**
 
