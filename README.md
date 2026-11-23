@@ -1,4 +1,6 @@
-<img width="480" height="480" alt="loss_landscape_opt" src="https://github.com/user-attachments/assets/5d7b5b0b-3dab-4fdd-9ae2-57212be424af" />
+<p align="center">
+  <img width="480" height="480" alt="loss_landscape_opt" src="https://github.com/user-attachments/assets/5d7b5b0b-3dab-4fdd-9ae2-57212be424af" />
+</p>
 
 ### Harry Nguyen
 
