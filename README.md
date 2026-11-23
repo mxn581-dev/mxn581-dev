@@ -2,6 +2,7 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/umap-dark.svg">
   <img alt="Cells resolving from noise into labeled cell types" src="assets/umap-light.svg" width="100%">
 </picture>
+
 ### Harry Nguyen
 
 Mathematical ML · Low-Energy Edge AI · Dynamical Systems  
