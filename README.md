@@ -1,12 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/umap-dark.svg">
-  <img alt="Cells resolving from noise into labeled cell types" src="assets/umap-light.svg" width="100%">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/edge-stream-dark.svg">
-  <img alt="Streaming dynamical trajectories running through quantized edge inference" src="assets/edge-stream-light.svg" width="100%">
-</picture>
+<img width="480" height="480" alt="loss_landscape_opt" src="https://github.com/user-attachments/assets/5d7b5b0b-3dab-4fdd-9ae2-57212be424af" />
 
 ### Harry Nguyen
 
